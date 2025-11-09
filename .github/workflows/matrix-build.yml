@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       # Unique step with required identifier
-      - name: matrix-ba7c401
+      - name: matrix-3673216
         run: echo "Building for Python version ${{ matrix.python-version }}"
 
       - name: Setup Python
